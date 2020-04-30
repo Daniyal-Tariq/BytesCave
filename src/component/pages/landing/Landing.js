@@ -118,9 +118,9 @@ export default class Landing extends Component {
         <BioSection />
         {/* <OurClient /> */}
         <FormSection />
-        <Services />
+        {/* <Services /> */}
         {/* <SimpleSlider /> */}
-        {/* <Footer /> */}
+        <Footer />
       </div>
     )
   }
