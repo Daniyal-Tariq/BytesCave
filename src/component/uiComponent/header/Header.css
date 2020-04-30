@@ -1,0 +1,64 @@
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+
+.main .custom-header{
+  background-color: #fafbfc;
+  padding: 30px 0 !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.navbar-expand-lg{
+  padding: 20px 0 !important;
+}
+.main .custom-header .navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+.main .custom-header .navbar-brand .logo{
+  width: 145px;
+  /* height: 50px; */
+  object-fit: contain;
+}
+.header-logo {
+  width: 145px;
+}
+.nav-button{
+  background-image: linear-gradient(293deg, #7B0C16 0%, #E4001B 100%);
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  border: none;
+}
+.nav-button:hover{
+  background-image: linear-gradient(293deg,#E4001B  0%, #7B0C16 100%);
+
+}
+.main .custom-header .navbar-nav{}
+.main .custom-header .navbar-nav a{
+  font-family: QuickSand-regular;
+  font-size: 18px;
+  color: #7E7E7E;
+  padding: 5px 0;
+  margin: 0 20px;
+  border-bottom: 2px solid transparent;
+}
+.main .custom-header .navbar-nav a.active, .main .custom-header .navbar-nav a:hover{
+  border-color: #0063B0;
+  color: #0063B0;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #7E7E7E !important;
+  padding: 10px!important;
+}
+.main .custom-header .navbar-nav .nav-button{
+  background-image: linear-gradient(293deg, #7B0C16 0%, #E4001B 100%);
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  border: none;
+}

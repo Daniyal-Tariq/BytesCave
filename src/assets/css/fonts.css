@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'QuickSand-regular';
+    src: url('../fonts/Quicksand-Regular.ttf');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'QuickSand-medium';
+    src: url('../fonts/Quicksand-Medium.ttf');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'QuickSand-semibold';
+    src: url('../fonts/Quicksand-Semibold.ttf');
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: 'QuickSand-bold';
+    src: url('../fonts/Quicksand-Bold.ttf');
+    font-weight: 700;
+  }

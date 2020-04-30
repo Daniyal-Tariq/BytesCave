@@ -1,0 +1,27 @@
+.slider-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 0 12px 0 rgba(2,3,3,.06);
+    background-color: white;
+}
+.slider-card .testimonial-img {
+    height: 55px;
+}
+.slider-card img {
+    object-fit: contain;
+    padding: 10px 0;
+}
+.slider-card p {
+    font-family: QuickSand-regular;
+    color: #666666;
+    font-size: 16px;
+}
+.slider-card h1 {
+    font-family: QuickSand-bold;
+    color: #666666;
+    font-size: 16px;
+}
