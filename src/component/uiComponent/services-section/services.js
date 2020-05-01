@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import './services.css'
-import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 // import Slider from "react-slick";
 // import "./services.scss";
 
@@ -19,28 +19,30 @@ function Services() {
           </div>
           <div className="services-slider">
             <div className="services-grid">
-              <div className="services-card">
-                <h6>2 Services</h6>
-                <h1>Mobile App</h1>
-                <p> Read More <span>+</span></p>
-              </div>
-              <div className="services-card">
-                <h6>2 Services</h6>
-                <h1>Mobile App</h1>
-                <p> Read More <span>+</span></p>
-              </div>
-            </div>
-            <div className="services-grid">
-              <div className="services-card">
-                <h6>2 Services</h6>
-                <h1>Mobile App</h1>
-                <p> Read More <span>+</span></p>
-              </div>
-              <div className="services-card">
-                <h6>2 Services</h6>
-                <h1>Mobile App</h1>
-                <p> Read More <span>+</span></p>
-              </div>
+              <Row>
+                <div className="services-card col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                  <h6>2 Services</h6>
+                  <h1>Mobile App</h1>
+                  <p> Read More <span>+</span></p>
+                </div>
+                <div className="services-card col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                  <h6>2 Services</h6>
+                  <h1>Mobile App</h1>
+                  <p> Read More <span>+</span></p>
+                </div>
+              </Row>
+              <Row>
+                <div className="services-card col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                  <h6>2 Services</h6>
+                  <h1>Mobile App</h1>
+                  <p> Read More <span>+</span></p>
+                </div>
+                <div className="services-card col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                  <h6>2 Services</h6>
+                  <h1>Mobile App</h1>
+                  <p> Read More <span>+</span></p>
+                </div>
+              </Row>
             </div>
           </div>
         </div>

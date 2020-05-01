@@ -1,7 +1,7 @@
 .services {
     width: 100%;
     float: left;
-    background-image: url(/static/media/Our-service.8ed85792.png);
+    background-image: url(../../../assets/images/Our-service.png);
     background-position: right 10px;
     background-size: contain;
     backgroun-repeat: no-repeat;
@@ -40,7 +40,7 @@
 }
 .services-card{
     background-color: white;
-    width: calc( 50% - 20px );
+    /* width: calc( 50% - 20px ); */
     float: left;
     border: 0.3px solid #707070;
     margin: 10px;
@@ -71,4 +71,27 @@
     margin: 0;
     color: #7B0C16;
     font-family: QuickSand-Regular;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .services-section {
+        float: left;
+        width: 100%;
+        margin: 50px 0;
+    }
+    .services-content {
+        float: left;
+        width: 100%;
+        padding: 30px 0;
+    }
+    .services-slider {
+        float: left;
+        width: 100%;
+    }
+    .services-grid {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
 }
