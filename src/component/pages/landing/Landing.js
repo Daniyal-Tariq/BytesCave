@@ -7,7 +7,8 @@ import Services from '../../uiComponent/services-section/services';
 import Footer from '../../uiComponent/footer/footer'
 import OurClient from '../../uiComponent/ourClient/ourClient';
 import FormSection from '../../uiComponent/form/Form';
-import SimpleSlider from '../../uiComponent/Slider/Slider'
+import SimpleSlider from '../../uiComponent/Slider/Slider';
+import CreativeWork from '../../uiComponent/creativeWork/creativeWork';
 
 // const renderContent = (array, className) => {
 //   if (array) {
@@ -116,10 +117,11 @@ export default class Landing extends Component {
         <LeadingAgency />
         <Services />
         {/* <Services /> */}
+        <OurClient />
         <BioSection />
-        {/* <OurClient /> */}
-        <FormSection />
  
+        <FormSection />
+        {/* <CreativeWork /> */}
         {/* <SimpleSlider /> */}
         <Footer />
       </div>
