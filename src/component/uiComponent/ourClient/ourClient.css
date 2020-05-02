@@ -32,10 +32,18 @@
     position: relative;
     min-height: 150px;
 }
+.card-title{
+    position: absolute;
+    bottom: 16px;
+    left: 35px;
+    width: 70%;
+}
 
-/* .client-card img{
-
-} */
+.client-card img{
+    width: 45px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
 
 .client-card p{
     color: #9694A6;
@@ -50,9 +58,7 @@
     font-size: 20px;
     color: black;
     padding-top: 10px;
-    position: absolute;
-    bottom: 16px;
-    left: 35px;
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px){

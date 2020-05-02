@@ -13,30 +13,30 @@ const settings = {
     arrows: false,
     responsive: [
         {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
-          }
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+            }
         },
         {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2
-          }
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+            }
         },
         {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
         }
-      ]
+    ]
 };
 
 function OurClient() {
@@ -45,9 +45,9 @@ function OurClient() {
             <Container>
                 <div className="client-content">
                     <h1>What's Our Clients Say</h1>
-                    <p>NO MATTER how many examples we provide, or what we might say to convince 
-                        you of the quality of our work, those who say it best are those who have 
-                        already received our services. On the right are samples of what a few of 
+                    <p>NO MATTER how many examples we provide, or what we might say to convince
+                    you of the quality of our work, those who say it best are those who have
+                    already received our services. On the right are samples of what a few of
                         our clients have had to say about working with BytesCave.</p>
                 </div>
                 <div className="slider-container">
@@ -56,32 +56,44 @@ function OurClient() {
 
                         <div>
                             <div className="client-card">
-                                <img className="testimonial-img" src="assets/images/testimonial.png" alt="" />
+                                <img className="testimonial-img" src={require("../../../assets/images/client-img-1.jpg")} alt="" />
                                 <p>"I can honestly say that BytesCave has an impressive arsenal of talent that is ready to take your development needs to the next level."</p>
-                                <span></span>
-                                <h1>Omer Irfan.</h1>
-                                <img src="assets/images/user.png" alt="" />
+                                <div className="card-title">
+                                    <span></span>
+                                    <h1>Omer Irfan.</h1>
+                                </div>
                             </div>
                         </div>
                         <div>
                             <div className="client-card">
-                                <img className="testimonial-img" src="assets/images/testimonial.png" alt="" />
+                                <img className="testimonial-img" src={require("../../../assets/images/client-img-2.jpg")} alt="" />
                                 <p>"I'm always impressed by how well they understand our clients' needs and how their team adjusts accordingly."</p>
                                 <span></span>
                                 <h1>Raza Mughal.</h1>
                                 <img src="assets/images/user.png" alt="" />
                             </div>
                         </div>
-                        <div>
+                        {/* <div>
                             <div className="client-card">
-                                <img className="testimonial-img" src="assets/images/testimonial.png" alt="" />
+                                <img className="testimonial-img" src={require("../../../assets/images/client-img-1.jpg")} alt="" />
+                                <p>"I don't think you could find a better company to manage and build your project. I get so many compliments on my application."</p>
+
+                                <div className="card-title">
+                                    <span></span>
+                                    <h1>Omer Irfan.</h1>
+                                </div>
+                            </div>
+                        </div> */}
+                        {/* <div>
+                            <div className="client-card">
+                            <img className="testimonial-img" src={require("../../../assets/images/client-img-1.jpg")} alt="" />
                                 <p>"I don't think you could find a better company to manage and build your project. I get so many compliments on my application, and it has a lot of unique and complex development."</p>
                                 <span></span>
                                 <h1>Bill gates.</h1>
                                 <img src="assets/images/user.png" alt="" />
                             </div>
-                        </div>
-                        
+                        </div> */}
+
                         {/*                         
                         <div className="col-md-6 col-lg-6">
                             <div className="client-card">
