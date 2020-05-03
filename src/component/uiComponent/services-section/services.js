@@ -6,8 +6,8 @@ import './services.css'
 export default class Services extends Component {
   render() {
     const settings = {
-      className: "center",
-      centerMode: true,
+      // className: "center",
+      // centerMode: true,
       infinite: true,
       centerPadding: "60px",
       slidesToShow: 1,
@@ -55,29 +55,116 @@ export default class Services extends Component {
                  
                 <div>
                   <div className="services-card">
-                    <h6>1 Services</h6>
+                    <h6>Development</h6>
                     <h1>Mobile App</h1>
                     <p> Read More <span>+</span></p>
                   </div>
                 </div>
                 <div>
                   <div className="services-card">
-                    <h6>2 Services</h6>
-                    <h1>Mobile App</h1>
+                    <h6>Development</h6>
+                    <h1>Web development</h1>
                     <p> Read More <span>+</span></p>
                   </div>
                 </div>
                 <div>
                   <div className="services-card">
-                    <h6>3 Services</h6>
-                    <h1>Mobile App</h1>
+                    <h6>Development</h6>
+                    <h1>Branding</h1>
                     <p> Read More <span>+</span></p>
                   </div>
                 </div>
                 <div>
                   <div className="services-card">
-                    <h6>4 Services</h6>
-                    <h1>Mobile App</h1>
+                    <h6>Development</h6>
+                    <h1>Logo Desgin</h1>
+                    <p> Read More <span>+</span></p>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="services-card">
+                    <h6>Designing</h6>
+                    <h1>Media kit</h1>
+                    <p> Read More <span>+</span></p>
+                  </div>
+                </div>
+                <div>
+                  <div className="services-card">
+                    <h6>Designing</h6>
+                    <h1>Video Editing</h1>
+                    <p> Read More <span>+</span></p>
+                  </div>
+                </div>
+                <div>
+                  <div className="services-card">
+                    <h6>Designing</h6>
+                    <h1>Animations</h1>
+                    <p> Read More <span>+</span></p>
+                  </div>
+                </div>
+                <div>
+                  <div className="services-card">
+                    <h6>Designing</h6>
+                    <h1>UI/UX</h1>
+                    <p> Read More <span>+</span></p>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="services-card">
+                    <h6>Marketing</h6>
+                    <h1>SEO</h1>
+                    <p> Read More <span>+</span></p>
+                  </div>
+                </div>
+                <div>
+                  <div className="services-card">
+                    <h6>Marketing</h6>
+                    <h1>SMM</h1>
+                    <p> Read More <span>+</span></p>
+                  </div>
+                </div>
+                <div>
+                  <div className="services-card">
+                    <h6>Marketing</h6>
+                    <h1>Ecom Marketing</h1>
+                    <p> Read More <span>+</span></p>
+                  </div>
+                </div>
+                <div>
+                  <div className="services-card">
+                    <h6>Marketing</h6>
+                    <h1>Inferencer Marketing</h1>
+                    <p> Read More <span>+</span></p>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="services-card">
+                    <h6>Security</h6>
+                    <h1>Pentesting</h1>
+                    <p> Read More <span>+</span></p>
+                  </div>
+                </div>
+                <div>
+                  <div className="services-card">
+                    <h6>Security</h6>
+                    <h1>Growth Hacking</h1>
+                    <p> Read More <span>+</span></p>
+                  </div>
+                </div>
+                <div>
+                  <div className="services-card">
+                    <h6>Security</h6>
+                    <h1>Security Solutions</h1>
+                    <p> Read More <span>+</span></p>
+                  </div>
+                </div>
+                <div>
+                  <div className="services-card">
+                    <h6>Security</h6>
+                    <h1>Recovery</h1>
                     <p> Read More <span>+</span></p>
                   </div>
                 </div>

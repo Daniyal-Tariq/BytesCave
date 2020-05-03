@@ -11,11 +11,14 @@ function HeaderSection() {
   return (
     <Container>
       <div className="header-content">
-        <h1>BytesCave is a Custom Software Development Company</h1>
-        <p>BytesCave provides turn-key software development services that add value to your business. Contact us today and transform your ideas into solutions!</p>
+
+        <h1>BytesCave is a Software Development Company</h1>
+        <p>BytesCave provides turn-key software development services that add value to your business. <br /> Contact us today and transform your ideas into solutions!</p>
         <button>Start Your Project Today</button>
+
       </div>
     </Container>
+
   )
 }
 

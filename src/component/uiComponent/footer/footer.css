@@ -127,3 +127,36 @@
     display: inline;
     padding: 0 30px;
 }
+
+@media (min-width: 320px) and ( max-width: 767px) {
+    .footer-content {
+        display: flex;
+        /* justify-content: center; */
+        margin-top: 15px;
+        flex-direction: column;
+    }
+    .footer-logo {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .copyright, .footer-links {
+        margin: 0;
+        font-family: QuickSand-Regular;
+        font-size: 12px;
+        text-align: center;
+    }
+    .footer-links {
+        text-align: center;
+        /* padding: 7px 0; */
+    }
+    .footer-links ul {
+        list-style: none;
+        padding: 0;
+    }
+    .social-links ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+}
