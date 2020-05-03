@@ -114,10 +114,10 @@
   width: 100%;
   object-fit: contain;
 }
-.leading-section .leading-content{
+.leading-section .leading-content {
   width: calc( 50% - 40px);
   float: left;
-  padding: 40px 20px;
+  padding: 80px 20px 0 20px;
 }
 
 .leading-section .leading-content h1{

@@ -2,29 +2,10 @@ import React, { Component } from 'react';
 import './Landing.css';
 import Header from '../../uiComponent/header/Header';
 import { Container } from "react-bootstrap";
-import UiSection from '../../uiComponent/uiSection/uiSection';
 import Services from '../../uiComponent/services-section/services';
 import Footer from '../../uiComponent/footer/footer'
 import OurClient from '../../uiComponent/ourClient/ourClient';
 import FormSection from '../../uiComponent/form/Form';
-import SimpleSlider from '../../uiComponent/Slider/Slider';
-import CreativeWork from '../../uiComponent/creativeWork/creativeWork';
-
-// const renderContent = (array, className) => {
-//   if (array) {
-//     return array.map((obj, index) => {
-//       return (
-//         <div key={index} className="repeated-section">
-//           <img src={obj.icon} alt='icon' />
-//           <h1>{obj.title}</h1>
-//           <p>{obj.description}</p>
-//         </div>
-//       )
-//     })
-//   } else {
-//     return null;
-//   }
-// }
 
 function HeaderSection() {
   return (
@@ -92,19 +73,6 @@ function BioSection() {
 
 
 
-function Contact() {
-  return (
-    <div className="contact-section">
-      <Container>
-        <div className="contact-content">
-          <h1>The great aim of education is not knowledge but action</h1>
-          <button>Take Action Now</button>
-        </div>
-      </Container>
-    </div>
-  );
-}
-
 
 export default class Landing extends Component {
   render() {
@@ -116,13 +84,10 @@ export default class Landing extends Component {
         </div>
         <LeadingAgency />
         <Services />
-        {/* <Services /> */}
         <OurClient />
         <BioSection />
- 
         <FormSection />
         {/* <CreativeWork /> */}
-        {/* <SimpleSlider /> */}
         <Footer />
       </div>
     )
