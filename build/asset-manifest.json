@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.092245ee.chunk.css",
-    "main.js": "/static/js/main.ab40bc29.chunk.js",
-    "main.js.map": "/static/js/main.ab40bc29.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.12cab11b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.12cab11b.js.map",
-    "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
-    "static/js/2.f209848e.chunk.js": "/static/js/2.f209848e.chunk.js",
-    "static/js/2.f209848e.chunk.js.map": "/static/js/2.f209848e.chunk.js.map",
+    "main.js": "/static/js/main.689abdb6.chunk.js",
+    "main.js.map": "/static/js/main.689abdb6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.979bf474.js",
+    "runtime-main.js.map": "/static/js/runtime-main.979bf474.js.map",
+    "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
+    "static/js/2.6d43937e.chunk.js": "/static/js/2.6d43937e.chunk.js",
+    "static/js/2.6d43937e.chunk.js.map": "/static/js/2.6d43937e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f0d51778a86317ac38c2e49efa036f55.js": "/precache-manifest.f0d51778a86317ac38c2e49efa036f55.js",
+    "precache-manifest.fdcf44a2cbffa44a914a22fa6e87919b.js": "/precache-manifest.fdcf44a2cbffa44a914a22fa6e87919b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
+    "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
     "static/css/main.092245ee.chunk.css.map": "/static/css/main.092245ee.chunk.css.map",
-    "static/js/2.f209848e.chunk.js.LICENSE.txt": "/static/js/2.f209848e.chunk.js.LICENSE.txt",
+    "static/js/2.6d43937e.chunk.js.LICENSE.txt": "/static/js/2.6d43937e.chunk.js.LICENSE.txt",
     "static/media/Bio.png": "/static/media/Bio.26007c70.png",
     "static/media/Logo.png": "/static/media/Logo.c9652765.png",
     "static/media/services.css": "/static/media/Our-service.8ed85792.png",
@@ -24,10 +24,10 @@
     "static/media/leading-section.png": "/static/media/leading-section.e637e507.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.12cab11b.js",
-    "static/css/2.de424728.chunk.css",
-    "static/js/2.f209848e.chunk.js",
+    "static/js/runtime-main.979bf474.js",
+    "static/css/2.69121389.chunk.css",
+    "static/js/2.6d43937e.chunk.js",
     "static/css/main.092245ee.chunk.css",
-    "static/js/main.ab40bc29.chunk.js"
+    "static/js/main.689abdb6.chunk.js"
   ]
 }

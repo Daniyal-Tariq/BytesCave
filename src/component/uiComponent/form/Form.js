@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import { Container, Button, Form, Col } from 'react-bootstrap';
 import axios from 'axios';
-import './Form.css'
+import './Form.css';
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
+
 
 class FormSection extends Component {
     state = {
@@ -11,13 +14,13 @@ class FormSection extends Component {
         email: '',
         phoneNumber: '',
         message: '',
+        nda: false,
         sent: false,
         buttonText: 'Send Message'
     }
 
     formSubmit = (e) => {
         e.preventDefault()
-
         this.setState({
             buttonText: '...sending'
         })
@@ -29,33 +32,37 @@ class FormSection extends Component {
             email: this.state.email,
             phoneNumber: this.state.phoneNumber,
             message: this.state.message,
+            nda: this.state.nda
         }
 
+        console.log(data)
         axios.post('https://mailer-bytescave.herokuapp.com/api/v1', data)
             .then(res => {
-                this.setState({ sent: true },
-                    this.resetForm()
-                )
-                console.log('data', data)
+                this.setState({ sent: true })
+                alert('Your query has been submitted successfully.')
+                this.resetForm()
             })
-            .catch(() => {
-                console.log('Message not sent')
+            .catch((err) => {
+                alert('Something went wrong. Please try again later.')
             })
     }
 
-    //   resetForm = () => {
-    //     this.setState({
-    //         name: '',
-    //         message: '',
-    //         email: '',
-    //         buttonText: 'Message Sent'
-    //     })
-    // }
+    resetForm = () => {
+        this.setState({
+            firstName: '',
+            lastName: '',
+            companyName: '',
+            email: '',
+            phoneNumber: '',
+            message: '',
+            nda: false,
+            sent: false,
+            buttonText: 'Message Sent'
+        })
+    }
 
     render() {
-        // console.log(this.state)
         return (
-
             <div className="form-section">
                 <Container>
                     <h1>To learn how BytesCave can transform your business, schedule a free consultation today!</h1>
@@ -85,8 +92,14 @@ class FormSection extends Component {
                         </Form.Row>
 
                         <Form.Group controlId="formGridAddress1">
+
                             <Form.Label>Phone Number *</Form.Label>
-                            <Form.Control onChange={e => this.setState({ phoneNumber: e.target.value })} name="phoneNumber" value={this.state.phoneNumber} placeholder="(XXX) XXX-XXXX" type="number" />
+                            {/* <Form.Control onChange={e => this.setState({ phoneNumber: e.target.value })} name="phoneNumber" value={this.state.phoneNumber} placeholder="(XXX) XXX-XXXX" type="number" /> */}
+                            <PhoneInput
+                                placeholder="Enter phone number"
+                                value={this.state.phone}
+                                onChange={phone => this.setState({ phoneNumber: phone })}
+                            />
                         </Form.Group>
 
                         <Form.Group controlId="formGridAddress2">
@@ -95,7 +108,7 @@ class FormSection extends Component {
                         </Form.Group>
 
                         <Form.Group id="formGridCheckbox">
-                            <Form.Check type="checkbox" label="Sign a mutual NDA before conversation?" />
+                            <Form.Check type="checkbox" label="Sign a mutual NDA before conversation?" onChange={e => this.setState({ nda: true })} />
                         </Form.Group>
 
                         <Button type="submit" onClick={this.formSubmit} className="form-button">
