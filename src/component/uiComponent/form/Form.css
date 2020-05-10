@@ -26,6 +26,9 @@
     color: #c90319 !important;
     margin-top: 35px !important;
 }
+.react-tel-input .country-list .country-name {
+    color: black !important;
+}
 @media (min-width: 320px) and ( max-width: 767px) {
     .form-section {
         width: 100%;
