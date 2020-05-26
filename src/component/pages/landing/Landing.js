@@ -141,7 +141,7 @@ function Footer() {
             <ul>
               <li><a href="https://www.facebook.com/bytescave"><img src={require("../../../assets/images/fb.png")} /></a></li>
               <li><a href="https://twitter.com/bytescave"><img src={require("../../../assets/images/twitter.png")} /></a></li>
-              <li><a href="https://www.instagram.com/bytescave/"><img src={require("../../../assets/images/Linkedin.png")} /></a></li>
+              <li><a href="https://www.instagram.com/bytescave/"><img src={require("../../../assets/images/instagram.png")} /></a></li>
             </ul>
 
           </div>
